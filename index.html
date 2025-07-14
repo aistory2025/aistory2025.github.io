@@ -123,21 +123,103 @@
         </div>
 
 
-        <div id="schedule" class="section">
-            <h2>Tentative Schedule</h2>
-            <ul>
-                <li><strong>08:45-09:00:</strong> Welcome words by organizers</li>
-                <li><strong>09:00-09:30:</strong> Invited Talk 1</li>
-                <li><strong>09:30-10:00:</strong> Invited Talk 2</li>
-                <li><strong>10:00-10:15:</strong> Coffee break and Poster Setup</li>
-                <li><strong>10:15-11:15:</strong> Poster Session</li>
-                    <li><strong>11:15-11:45:</strong> Best Paper Talk</li>
-                <li><strong>11:45-12:00:</strong> Best Demo Presentation</li>
-                <li><strong>12:00-12:30:</strong> Invited Talk 3</li>
-                <li><strong>12:30-13:00:</strong> Invited Talk 4</li>        
-            </ul>
-        </div>
 <style>
+    .speakers-section {
+        max-width: 800px;
+        margin: 0 auto;
+    }
+    .speaker-item {
+        display: flex;
+        align-items: center;
+        margin-bottom: 30px;
+    }
+    .speaker-img {
+        width: 120px;
+        height: 120px;
+        object-fit: cover;
+        border-radius: 50%;
+        margin-right: 20px;
+        border: 2px solid #ccc;
+    }
+    .speaker-details {
+        line-height: 1.4;
+    }
+    .speaker-name {
+        font-weight: bold;
+        font-size: 1.1em;
+    }
+    .speaker-affiliation {
+        font-size: 0.95em;
+        color: #555;
+    }
+    .speaker-title {
+        margin-top: 5px;
+    }
+    .speaker-title a {
+        text-decoration: none;
+        color: #007acc;
+    }
+</style>
+
+<div id="speakers" class="section speakers-section">
+    <h2>Invited Speakers</h2>
+
+    <div class="speaker-item">
+        <a href="https://example.com/xiaoqian-shen">
+            <img class="speaker-img" src="img/xiaoqian-shen.jpg">
+        </a>
+        <div class="speaker-details">
+            <div class="speaker-name">Xiaoqian Shen</div>
+            <div class="speaker-affiliation">KAUST</div>
+            <div class="speaker-title">
+                <a href="https://example.com/storygpt-v">StoryGPT-V: Large Language Models as Consistent Story Visualizers</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="speaker-item">
+        <a href="https://sites.google.com/site/xianchaowu2012/">
+            <img class="speaker-img" src="img/xianchao-wu.jpg">
+        </a>
+        <div class="speaker-details">
+            <div class="speaker-name">Xianchao Wu</div>
+            <div class="speaker-affiliation">NVIDIA</div>
+            <div class="speaker-title">
+                <a href="https://example.com/novel-post-training">Novel Post-Training Algorithms for LLMs to Prevent Harmful Contents and Hallucinations</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="speaker-item">
+        <a href="https://example.com/weijia-wu">
+            <img class="speaker-img" src="img/weijia-wu.jpg">
+        </a>
+        <div class="speaker-details">
+            <div class="speaker-name">Weijia Wu</div>
+            <div class="speaker-affiliation">NUS</div>
+            <div class="speaker-title">
+                <a href="https://example.com/moviebench">MovieBench: A Hierarchical Movie Level Dataset for Long Video Generation</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="speaker-item">
+        <a href="https://sites.google.com/view/linguedu/home">
+            <img class="speaker-img" src="img/lin-gu.jpg">
+        </a>
+        <div class="speaker-details">
+            <div class="speaker-name">Lin Gu</div>
+            <div class="speaker-affiliation">RIKEN AIP</div>
+            <div class="speaker-title">
+                <a href="https://example.com/lin-gu-talk">[Talk Title Placeholder]</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+            <style>
     .team-table {
         width: 100%;
         text-align: center;
@@ -160,18 +242,6 @@
         color: #555;
     }
 </style>
-            
-        <div id="speakers" class="section">
-            <h2>Invited Speakers</h2>
-            <ul>
-                    <li>Xiaoqian Shen (KAUST): StoryGPT-V: Large Language Models as Consistent Story Visualizers</li>
-                <li>Xianchao Wu (NVIDIA): Novel Post-Training Algorithms for LLMs to Prevent Harmful Contents and Hallucinations</li>
-                    <li>Weijia Wu (NUS): MovieBench: A Hierarchical Movie Level Dataset for Long Video Generation</li>
-                <li>Lin Gu (RIKEN AIP):</li>
-
-            </ul>
-        </div>
-
         <div id="organizers" class="section">
             <h2>Organizers</h2>
    
